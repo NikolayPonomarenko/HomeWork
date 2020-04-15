@@ -58,7 +58,7 @@ public class Level2HW3<pb> {
 
             int type=JOptionPane.INFORMATION_MESSAGE; // тип значка
 
-            //JOptionPane.showMessageDialog(null, title, type);
+            //JOptionPane.showMessageDialog(null, title,  type);
             JOptionPane.showMessageDialog(null, pb.get(s), title, type);
 
             System.out.println("\nВсе номера справочника: \n" + pb);
